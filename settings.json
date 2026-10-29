@@ -1,0 +1,8 @@
+{
+  "glideMs": 8000,
+  "leadMs": 1000,
+  "stepX": 0.15,
+  "stepY": 0.12,
+  "balancePersona": true,
+  "balanceSyncMs": 60000
+}

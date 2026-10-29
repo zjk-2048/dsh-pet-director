@@ -1,0 +1,5 @@
+director.log
+director.pid
+netstat.tmp
+node_modules/
+*.tmp

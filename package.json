@@ -1,0 +1,32 @@
+{
+  "name": "dsh-pet-director",
+  "version": "0.1.0",
+  "description": "大肥鱼小导演 —— 让 DeepSeek Harness 的桌宠把「说的话」变成「真的动作」：旁听对话记忆，调用 dsh-pet 公开的点播接口",
+  "type": "module",
+  "bin": {
+    "dsh-pet-director": "director.mjs"
+  },
+  "files": [
+    "director.mjs",
+    "settings.json",
+    "start.cmd",
+    "stop.cmd",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node director.mjs",
+    "selftest": "node director.mjs --selftest"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-pet",
+    "desktop-pet",
+    "mascot",
+    "automation"
+  ],
+  "license": "MIT"
+}
